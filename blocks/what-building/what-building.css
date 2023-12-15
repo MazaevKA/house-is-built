@@ -1,0 +1,65 @@
+.what-building__title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 57px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.what-building__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 34px;
+}
+
+.what-building__item {
+  flex-basis: 165px;
+  padding-top: 4px;
+  background-color: #C2B59B;
+  border-radius: 20px;
+  box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
+}
+
+.what-building__text {
+  font-weight: 600;
+  line-height: 17px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.what-building__item::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 190px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100px;
+}
+
+.what-building__item--home::after {
+  background-image: url("../../img/home.svg");
+}
+
+.what-building__item--cottage::after {
+  background-image: url("../../img/cottage.svg");
+}
+
+.what-building__item--townhouse::after {
+  background-image: url("../../img/townhouse.svg");
+}
+
+.what-building__item--mansion::after {
+  background-image: url("../../img/mansion.svg");
+}
+
+.what-building__item--village::after {
+  background-image: url("../../img/village.svg");
+}
+
+.what-building__item--sauna::after {
+  background-image: url("../../img/sauna.svg");
+}
