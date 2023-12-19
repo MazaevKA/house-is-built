@@ -1,0 +1,49 @@
+.header {
+  height: 80px;
+  padding: 10px 0;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  margin-right: 150px;
+}
+
+.header__nav {
+  margin-right: auto;
+}
+
+.header__sign {
+  background-color: transparent;
+  border: none;
+  padding-right: 35px;
+  background: url("img/lk.svg") no-repeat right;
+  height: 34px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

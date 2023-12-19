@@ -2,3 +2,5 @@
 @import "normalize.css";
 @import "global.css";
 @import "../blocks/blocks.css";
+@import "../blocks/header/header.css";
+@import "../bloks/nav/nav.css";

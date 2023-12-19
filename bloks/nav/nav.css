@@ -1,0 +1,54 @@
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+  margin-right: 54px;
+  font-weight: 300;
+  font-style: 18px;
+  line-height: 21px;
+}
+
+.nav__item {
+  margin-right: 60px;
+}
+
+.nav__item:last-child {
+  margin-right: 0;
+}
+
+.nav__city {
+  font-weight: 500;
+  font-style: 18px;
+  line-height: 21px;
+  margin-right: 90px;
+  background-color: transparent;
+  border: none;
+}
+
+.nav__phone {
+  font-weight: 300;
+  font-style: 24px;
+  line-height: 29px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
